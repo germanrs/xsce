@@ -1,4 +1,4 @@
-# Release Notes for XSCE 6.0
+# Release Notes for XSCE 6.0 - FZT
 
 ## What is it?
 
