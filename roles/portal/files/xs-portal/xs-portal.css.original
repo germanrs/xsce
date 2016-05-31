@@ -4,36 +4,32 @@
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   position: relative;
 	margin: 0 auto;
-	padding: 0 auto;
+
 	width: 100%;
-	max-width: 1800px;
+	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	/*background-color:#819FF7;*/
-	/*background-image: url("images/fondo2.jpg");
-	background-attachment: fixed;*/
-		
+
 }
 
 #main {
 	text-align: left;
+
 }
 
 
 #xsBanner {
-	width:900px;
+	/*width:900px;*/
 	height:200px;
-	background-color:green;
-	
+
 }
 .xsIcon {
-	width:1140px;
-	float:center;
-	/*border-width:3px;
+	width:400px;
+	float:left;
+	border-width:3px;
 	border-style:solid;
-	border-color:#green;*/
-	position: center;	
+	border-color:#333;
 }
 
 .xsLanguage {
@@ -80,8 +76,6 @@
 .xsMenuHeading {
 	margin-top: 20px;
   margin-bottom: 20px;
-	
-
 }
 
 .xsMenuHeading h2{
@@ -132,39 +126,4 @@
 .xsServiceDesc {
 	 overflow:hidden;
 }
-#rotator img { position: center; }
-
-
-#slider{
-            margin: 0 auto;
-            width: 800px;
-            height: 500px;
-            overflow:hidden;
-            background-color: black;
-        }
-    /*Valores de las imagenes*/
-        #slider img{
-            margin: 0 auto;
-            -moz-transition: opacity 2s;
-            -webkit-transition: opacity 2s;
-            transition: opacity 2s;
-            width: 800px;
-            height: 500px;
-            position: absolute;
-            opacity: 0;
-        }
-    /*Para que la primera imagen este activa al inicio*/
-        #slider img:nth-child(1){
-            opacity: 1;
-        }
-
-
-#fondo {
-       
-        background-image: url("images/fondo2.jpg");
-        background-attachment: fixed;
-	width: 100%;
-        height: auto;
-      	position: absolute; 
-}
-
+#rotator img { position: absolute; }

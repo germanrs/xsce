@@ -6,36 +6,17 @@
 <HEAD>
 
 <TITLE>Bienvenido al servidor de la escuela</TITLE>
-<script src="scrip.js"></script>
+
 </HEAD>
 <BODY>
-<div id ="fondo">
+
 <div id="wrapper">	
-<h1>Bienvenido al servidor Escolar</h1>
-
-
+<h1>Bienvenido al servidor de la escuela</h1>
 <?php require 'incl/banner.html'; ?>
 
-
-<div id="main">
-
-
-       
-<h2>Cosas interesantes puedes hacer aqui</h2>
-
-<?php service_link("pathagar", "Lee libros en Pathagar", "Pathagar es un servidor de libreta que contiene una colección local de los libros que se pueden leer sin tener que descargarlos desde internet."); ?>
-<?php // iiab_link("Internet In A Box", 
-//                "Internet-in-a-Box is a copy of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily.",
-//                "Searching for Internet In A Box"); 
-?>
-<?php hard_link("/content", "Acceso Otros Contenidos", "Ponga el contenido adicional en /library/content y los subdirectorios y enlace a ella con esta función, como syans en Haití."); ?>
-<?php service_link("iiab", "Internet In A Box", "Internet-in-a-Box es una copia de una parte del material más importante en Internet, como la Wikipedia, almacenado localmente donde se puede llegar con facilidad."); ?>
-<?php service_link("moodle", "Moodle Home Page", "Moodle es una colección de clases y materiales de estudio organizados para ayudarle a aprender muchas cosas fascinantes."); ?>
-<?php service_link("upload", "Cargar archivos", "Desde este enlace puedes cargar varios archivos, como imágenes y actividades"); ?>
-<?php service_link("activity-server", "Descargar una Actividad", "Puedes añadir una nueva actividad a su XO desde este enlace."); ?>
-
-
-
+<div id="main"> 
+		
+<br><h2>Cosas interesantes que puedes hacer aquí:</h2>
 
 <div class="xsMenuHeading">
 	<img src="/common/images/220px-Wikipedia-logo-v2.svg.png">
@@ -45,35 +26,27 @@
 <!-- <h2>Contenido en español de Kiwix</h2>-->
 
 <!--1-->
-
-<?php kiwix_link("wikipedia_es_all_2016-04", "Wikipedia-ES 2016", "La enciclopedia libre en español"); ?>
+<?php kiwix_link("wikipedia_es_all_2015-10", "Wikipedia-ES", "La enciclopedia libre en español"); ?>
 
 <!--2-->
-
-
-
-
-
-
-<?php kiwix_link("vikidia_es_all_2016-05", "Vikidia", "Enciclopedia adaptada a una forma simple de descripción, para que sea mejor entendido por niños y jóvenes."); ?>
-
+<?php kiwix_link("vikidia_es_all_2015-11", "Vikidia", "Enciclopedia adaptada a una forma simple de descripción, para que sea mejor entendido por niños y jóvenes."); ?>
 <!--3-->
-<?php kiwix_link("wikibooks_es_all_2016-04", "Wikilibros", "La colección de libros de texto y manuales libre que ¡todos pueden editar!"); ?>
+<?php kiwix_link("wikibooks_es_all_2015-11", "Wikilibros", "La colección de libros de texto y manuales libre que ¡todos pueden editar!"); ?>
 
 <!--4-->
-<?php kiwix_link("wikinews_es_all_2016-04", "Wikinoticias", "La fuente de noticias libres en la que todos pueden ser reporteros."); ?>
+<?php kiwix_link("wikinews_es_all_2015-11", "Wikinoticias", "La fuente de noticias libres en la que todos pueden ser reporteros."); ?>
 
 <!--5-->
-<?php kiwix_link("wikiquote_es_all_2016-05", "Wikiquote", "La colección de citas donde tú puedes colaborar."); ?>
+<?php kiwix_link("wikiquote_es_all_2015-11", "Wikiquote", "La colección de citas donde tú puedes colaborar."); ?>
 
 <!--6-->
-<?php kiwix_link("wikisource_es_all_2016-05", "Wikisource", "La biblioteca que todos pueden editar con 112 044 artículos en español"); ?>
+<?php kiwix_link("wikisource_es_all_2015-11", "Wikisource", "La biblioteca que todos pueden editar con 112 044 artículos en español"); ?>
 
 <!--7-->
-<?php kiwix_link("wikiversity_es_all_2016-05", "Wikiversidad", "La wiki de contenido académico libre que todos pueden editar"); ?>
+<?php kiwix_link("wikiversity_es_all_2015-11", "Wikiversidad", "La wiki de contenido académico libre que todos pueden editar"); ?>
 
 <!--8-->
-<?php kiwix_link("wikivoyage_es_all_2016-05", "Wikiviajes", "La guía libre para viajar por el mundo que cualquiera puede editar."); ?>
+<?php kiwix_link("wikivoyage_es_all_2015-11", "Wikiviajes", "La guía libre para viajar por el mundo que cualquiera puede editar."); ?>
 
 <!--9-->
 <?php kiwix_link("wiktionary_es_all_2015-10", "Wikcionario", "El diccionario libre que todos pueden editar"); ?>
@@ -152,25 +125,9 @@
 	<li>Admin Console: x<a href="/software" target="_blank">s</a>ce-admin</li>
 </ul>
 
-
-
-
-
-<!--
-<h2>Other Content</h2>
-<?php hard_link("/content", "Browse Other Content", "This is the place for local downloads."); ?>
--->
-<BR><B> Enjoy Exploring & Building Your Library! &nbsp; <I>volunteer@unleashkids.org</I></B>
-<BR><BR>
-
-<?php require 'incl/footer.php'; ?>
-
-
-
 <BR> Disfrute explorando!
 </div><!-- #main -->
 </div><!-- #wrapper -->
-</div><!-- #fondo -->
 </BODY>
 <script type="text/javascript" src="incl/xs-portal.js"></script>
 </HTML>
