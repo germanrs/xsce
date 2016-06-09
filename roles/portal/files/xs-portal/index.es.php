@@ -45,35 +45,28 @@
 <!-- <h2>Contenido en español de Kiwix</h2>-->
 
 <!--1-->
-
-<?php kiwix_link("wikipedia_es_all_2016-04", "Wikipedia-ES 2016", "La enciclopedia libre en español"); ?>
+<?php kiwix_link("wikipedia_es_all_2015-10", "Wikipedia", "La enciclopedia libre en español"); ?>
 
 <!--2-->
-
-
-
-
-
-
-<?php kiwix_link("vikidia_es_all_2016-05", "Vikidia", "Enciclopedia adaptada a una forma simple de descripción, para que sea mejor entendido por niños y jóvenes."); ?>
+<?php kiwix_link("vikidia_es_all_2015-11", "Vikidia", "Enciclopedia adaptada a una forma simple de descripción, para que sea mejor entendido por niños y jóvenes."); ?>
 
 <!--3-->
-<?php kiwix_link("wikibooks_es_all_2016-04", "Wikilibros", "La colección de libros de texto y manuales libre que ¡todos pueden editar!"); ?>
+<?php kiwix_link("wikibooks_es_all_2015-11", "Wikilibros", "La colección de libros de texto y manuales libre que ¡todos pueden editar!"); ?>
 
 <!--4-->
-<?php kiwix_link("wikinews_es_all_2016-04", "Wikinoticias", "La fuente de noticias libres en la que todos pueden ser reporteros."); ?>
+<?php kiwix_link("wikinews_es_all_2015-11", "Wikinoticias", "La fuente de noticias libres en la que todos pueden ser reporteros."); ?>
 
 <!--5-->
-<?php kiwix_link("wikiquote_es_all_2016-05", "Wikiquote", "La colección de citas donde tú puedes colaborar."); ?>
+<?php kiwix_link("wikiquote_es_all_2015-11", "Wikiquote", "La colección de citas donde tú puedes colaborar."); ?>
 
 <!--6-->
-<?php kiwix_link("wikisource_es_all_2016-05", "Wikisource", "La biblioteca que todos pueden editar con 112 044 artículos en español"); ?>
+<?php kiwix_link("wikisource_es_all_2015-11", "Wikisource", "La biblioteca que todos pueden editar con 112 044 artículos en español"); ?>
 
 <!--7-->
-<?php kiwix_link("wikiversity_es_all_2016-05", "Wikiversidad", "La wiki de contenido académico libre que todos pueden editar"); ?>
+<?php kiwix_link("wikiversity_es_all_2015-11", "Wikiversidad", "La wiki de contenido académico libre que todos pueden editar"); ?>
 
 <!--8-->
-<?php kiwix_link("wikivoyage_es_all_2016-05", "Wikiviajes", "La guía libre para viajar por el mundo que cualquiera puede editar."); ?>
+<?php kiwix_link("wikivoyage_es_all_2015-11", "Wikiviajes", "La guía libre para viajar por el mundo que cualquiera puede editar."); ?>
 
 <!--9-->
 <?php kiwix_link("wiktionary_es_all_2015-10", "Wikcionario", "El diccionario libre que todos pueden editar"); ?>
